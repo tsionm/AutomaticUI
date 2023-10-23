@@ -1,8 +1,78 @@
-.App {
-  text-align: center;
+body {
+  margin: 0 !important;
+  padding: 0;
+  height: 100vh; /* This sets the body height to 100% of the viewport height */
+  overflow: hidden; /* This hides any overflowing content */
+}
+.welcome { 
+  font-size: 60px;
+  margin-top: 100px;
+
+}
+.paragraph{
+  font-size: 30px;
+  margin-top: 100px;
+}
+.activeClicked {
+  background-color: #007bff  !important; /* Change to your desired background color */
+  color: #fff !important; /* Change to your desired text color */
+  border-radius: 3px !important; /* Add any additional styles you need */
+  /* Add other styles as needed */
 }
 
-.App-logo {
+.sidebar{
+
+  font-size: 30px;
+  color: #03609b !important;
+  font-weight: 400;
+  
+}
+
+.link{
+  color: #272F47;
+  text-decoration:none;
+}
+.link2{
+  color: #272F47;
+  text-decoration:none;
+  background-color: #CCCC32;
+  border-color: #CCCC32;
+}
+.back{
+  background-color: #e5e5e5;
+  border-color: #e5e5e5;
+  margin-right: -80px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.response{
+  font-size: 20px;
+  padding: 10px;
+  background-color: #d7d8df;
+  border-radius: 4px;
+}
+.test{
+  padding-top: 100px !important;
+}
+
+.test h2{
+  color: #3e559b;
+  font-size: 40px;
+
+}
+
+.services{
+  
+  color: #3e559b;
+  font-size: 40px;
+}
+.App {
+
+  /* text-align: center; */
+  /* background-color: #272F47; */
+} 
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +105,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */ 
