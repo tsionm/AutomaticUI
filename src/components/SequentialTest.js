@@ -153,6 +153,7 @@ const SequentialTest = () => {
       });
   };
   const sendPin = async (e) => {
+    console.log("^^^^^^^^^^^^^^^^^"+Pin)
     const url = `${BaseUrl}/ussdinterface/ussdinterface`;
 
     const xmlData = `<?xml version="1.0"?>

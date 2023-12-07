@@ -14,7 +14,7 @@ const Register = () => {
 
     const Register = async (e) =>{
         e.preventDefault()
-        const url = `http://172.16.0.183:8080/automate-test/rest/automateTest/registerTester`
+        const url = `http://172.26.5.203:80/automate-test/rest/automateTest/registerTester`
         const data = {
             fullname:fullname,
             username: username,
