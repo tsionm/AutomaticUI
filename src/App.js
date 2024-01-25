@@ -10,6 +10,7 @@ import Services from './components/Services';
 import SequentialTest from './components/SequentialTest';
 import Login from './pages/Login';
 import Register from './pages/Register';
+import Result from './componentsR/Result';
 
 
 function App() {
@@ -17,8 +18,9 @@ function App() {
 
   return (
     <div className="App">
+      <Result/>
    
-      <HashRouter>
+      {/* <HashRouter>
         <Routes>
          <Route path="/" element={<Welcome />} />
          <Route path="/normalTest" element={<NormalTest />} >
@@ -29,7 +31,7 @@ function App() {
          <Route path="/login" element={<Login />} />
          <Route path="/register" element={<Register />} />
         </Routes>
-      </HashRouter>
+      </HashRouter> */}
     </div>
   );
 }
